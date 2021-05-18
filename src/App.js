@@ -1,10 +1,11 @@
 
 import './App.css';
+import AdminPage from './components/Admin/AdminPage';
 
 function App() {
   return (
     <div>
-      hello world
+      <AdminPage />
 
     </div>
   );
