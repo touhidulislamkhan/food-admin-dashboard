@@ -1,0 +1,13 @@
+.form-container{
+    max-width: 75%;
+    border: 1px solid black;
+    border-radius: 3px;
+    left: 0;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 30px;
+}
+
+.form-container h3{
+    text-align: center;
+}
