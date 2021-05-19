@@ -51,7 +51,6 @@ const Home = () => {
                 <form className='search-form' onSubmit={handleSubmit}>
                     <input type="text" value={search} placeholder='Search Dish'
                         onChange={(e) => setSearch(e.target.value)}
-                        onFocus={() => setIsSearch(true)}
                         onBlur={() => setIsSearch(false)}
                     />
                     <button className="btn btn-primary btn-sm">Search</button>
