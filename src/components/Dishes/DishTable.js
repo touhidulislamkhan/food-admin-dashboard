@@ -1,18 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './DishTable.css';
 
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { deleteDish } from "../../redux/actionCreators";
+import DishForm from './DishForm';
 
 const DishTable = () => {
     const dishes = useSelector(state => state.dishes);
     const dispatch = useDispatch();
     // console.log(dishes);
 
+    const [isModal, setIsModal] = useState(false);
+
     const handleDelete = (dish) => {
         dispatch(deleteDish(dish));
+    }
+
+    const handleEdit = (dish) => {
+        console.log(dish);
     }
 
     return (
@@ -39,7 +46,8 @@ const DishTable = () => {
                                 <TableCell align="right">{dish.carbs}</TableCell>
                                 <TableCell align="right">{dish.fat}</TableCell>
                                 <TableCell align="right">
-                                    <button className='btn btn-danger btn-sm' onClick={() => handleDelete(dish)}>Delete</button>
+                                    <button className='btn btn-info btn-sm' onClick={() => handleEdit(dish)}>Edit</button>
+                                    <button className='btn btn-danger btn-sm ml-2' onClick={() => handleDelete(dish)}>Delete</button>
                                 </TableCell>
                             </TableRow>
                         ))}

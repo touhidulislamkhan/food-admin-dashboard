@@ -3,7 +3,13 @@ import './DishForm.css';
 import { addDish } from "../../redux/actionCreators";
 import { useDispatch } from 'react-redux';
 
-const DishForm = () => {
+const DishForm = (props) => {
+
+
+    if (props.edit) {
+        console.log(props.edit);
+    }
+
 
     const dispatch = useDispatch();
 
@@ -22,7 +28,7 @@ const DishForm = () => {
             fat: fat,
         }
 
-        console.log(dish);
+        // console.log(dish);
 
         dispatch(addDish(dish));
 
