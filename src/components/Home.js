@@ -1,5 +1,4 @@
 import React from 'react';
-import './Home.css';
 
 import UserPage from './User/UserPage';
 import { useSelector } from 'react-redux';
