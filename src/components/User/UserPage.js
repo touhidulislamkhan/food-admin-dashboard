@@ -1,7 +1,7 @@
 import React from 'react';
 import './UserPage.css';
 
-import { Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
+import { Card, CardContent, Typography } from '@material-ui/core';
 
 
 const UserPage = ({ dish }) => {
@@ -27,9 +27,6 @@ const UserPage = ({ dish }) => {
                         Calories: {dish.calories}
                     </Typography>
                 </CardContent>
-                <CardActions>
-                    <Button size="small">Learn More</Button>
-                </CardActions>
             </Card>
         </>
     );

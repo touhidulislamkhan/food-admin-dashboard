@@ -15,3 +15,10 @@ export const deleteDish = (dish) => {
         payload: dish
     }
 }
+
+export const searchDish = (name) => {
+    return {
+        type: 'SEARCH_DISH',
+        payload: name
+    }
+}

@@ -10,7 +10,8 @@ const initialState = {
             calories: 134
 
         },
-    ]
+    ],
+    search: []
 }
 
 const reducer = (state = initialState, action) => {
@@ -24,6 +25,11 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 dishes: state.dishes.filter(dish => dish.name !== action.payload.name),
+            }
+        case 'SEARCH_DISH':
+            return {
+                ...state,
+                search: state.dishes.filter(dish => dish.name === action.payload)
             }
         default:
             return state;
