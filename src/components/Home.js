@@ -22,9 +22,10 @@ const Home = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // console.log(search);
-        setIsSearch(true);
+
         dispatch(searchDish(search));
         setSearch('');
+        setIsSearch(true);
     }
 
     const dishItem = dishes.map(dish => {
@@ -48,7 +49,11 @@ const Home = () => {
         <div className='container'>
             <div className="row">
                 <form className='search-form' onSubmit={handleSubmit}>
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Search Dish' />
+                    <input type="text" value={search} placeholder='Search Dish'
+                        onChange={(e) => setSearch(e.target.value)}
+                        onFocus={() => setIsSearch(true)}
+                        onBlur={() => setIsSearch(false)}
+                    />
                     <button className="btn btn-primary btn-sm">Search</button>
                 </form>
             </div>
