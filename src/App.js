@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/food-admin-dashboard' exact component={Home} />
-        <Route path='/admin' exact component={AdminPage} />
+        <Route path='/food-admin-dashboard/admin' exact component={AdminPage} />
       </Switch>
 
     </Router>
