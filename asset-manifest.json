@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/food-admin-dashboard/static/css/main.5a16a8c9.chunk.css",
-    "main.js": "/food-admin-dashboard/static/js/main.e08e8ad2.chunk.js",
-    "main.js.map": "/food-admin-dashboard/static/js/main.e08e8ad2.chunk.js.map",
+    "main.js": "/food-admin-dashboard/static/js/main.acacba26.chunk.js",
+    "main.js.map": "/food-admin-dashboard/static/js/main.acacba26.chunk.js.map",
     "runtime-main.js": "/food-admin-dashboard/static/js/runtime-main.33c227cb.js",
     "runtime-main.js.map": "/food-admin-dashboard/static/js/runtime-main.33c227cb.js.map",
     "static/js/2.03f132f5.chunk.js": "/food-admin-dashboard/static/js/2.03f132f5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.33c227cb.js",
     "static/js/2.03f132f5.chunk.js",
     "static/css/main.5a16a8c9.chunk.css",
-    "static/js/main.e08e8ad2.chunk.js"
+    "static/js/main.acacba26.chunk.js"
   ]
 }
