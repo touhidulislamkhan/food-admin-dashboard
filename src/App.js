@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
+        <Route path='/food-admin-dashboard' exact component={Home} />
         <Route path='/admin' exact component={AdminPage} />
       </Switch>
 
