@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/food-admin-dashboard/static/css/main.5a16a8c9.chunk.css",
+    "main.js": "/food-admin-dashboard/static/js/main.d5d44c2d.chunk.js",
+    "main.js.map": "/food-admin-dashboard/static/js/main.d5d44c2d.chunk.js.map",
+    "runtime-main.js": "/food-admin-dashboard/static/js/runtime-main.33c227cb.js",
+    "runtime-main.js.map": "/food-admin-dashboard/static/js/runtime-main.33c227cb.js.map",
+    "static/js/2.03f132f5.chunk.js": "/food-admin-dashboard/static/js/2.03f132f5.chunk.js",
+    "static/js/2.03f132f5.chunk.js.map": "/food-admin-dashboard/static/js/2.03f132f5.chunk.js.map",
+    "static/js/3.09dc9711.chunk.js": "/food-admin-dashboard/static/js/3.09dc9711.chunk.js",
+    "static/js/3.09dc9711.chunk.js.map": "/food-admin-dashboard/static/js/3.09dc9711.chunk.js.map",
+    "index.html": "/food-admin-dashboard/index.html",
+    "static/css/main.5a16a8c9.chunk.css.map": "/food-admin-dashboard/static/css/main.5a16a8c9.chunk.css.map",
+    "static/js/2.03f132f5.chunk.js.LICENSE.txt": "/food-admin-dashboard/static/js/2.03f132f5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33c227cb.js",
+    "static/js/2.03f132f5.chunk.js",
+    "static/css/main.5a16a8c9.chunk.css",
+    "static/js/main.d5d44c2d.chunk.js"
+  ]
+}
